@@ -27,5 +27,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunrunners-paradise/temp-jobs-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gunrunners-paradise/temp-jobs-api/issues"
+  },
+  "homepage": "https://github.com/gunrunners-paradise/temp-jobs-api#readme"
 }
