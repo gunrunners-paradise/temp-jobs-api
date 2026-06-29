@@ -16,6 +16,14 @@ const jobsRouter = require('./routes/jobs');
 const notFoundMiddleware = require('./middleware/not-found');
 const errorHandlerMiddleware = require('./middleware/error-handler');
 
+// api frontend
+
+const path = require('path');
+
+app.get('/', (req,res) => {
+  res.sendFile(path.resolve(__dirname,'./html/index.html'));
+});
+
 // extra security packages
 const helmet = require('helmet');
 const cors = require('cors');
